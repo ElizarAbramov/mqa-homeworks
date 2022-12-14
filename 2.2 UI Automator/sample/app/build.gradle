@@ -33,9 +33,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'ru.netology.testing.uiautomator'
 }
 
 dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
     def core_version = "1.7.0"
     def appcompat_version = "1.4.1"
     implementation "androidx.core:core-ktx:$core_version"

@@ -17,5 +17,5 @@ dependencies {
 
 test {
     useJUnitPlatform()
-    systemProperty "platform", project.getProperty("platform")
+
 }
